@@ -1,0 +1,10 @@
+
+.icon-mail:before { content: '\e800'; } /* '' */
+.icon-linkedin:before { content: '\f0e1'; } /* '' */
+.icon-comment-empty:before { content: '\f0e5'; } /* '' */
+.icon-angle-left:before { content: '\f104'; } /* '' */
+.icon-angle-right:before { content: '\f105'; } /* '' */
+.icon-angle-up:before { content: '\f106'; } /* '' */
+.icon-angle-down:before { content: '\f107'; } /* '' */
+.icon-behance:before { content: '\f1b4'; } /* '' */
+.icon-codeopen:before { content: '\f1cb'; } /* '' */

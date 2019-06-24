@@ -1,0 +1,37 @@
+#contact .container {
+  max-width: calc(1000px + (80px * 2)); }
+
+#contact .info {
+  font-size: 1.2em; }
+  #contact .info p {
+    font-weight: 300;
+    letter-spacing: .5px;
+    padding-right: 40px; }
+
+#contact address {
+  padding-left: 40px;
+  border-left: 1px solid #FFF; }
+  #contact address li {
+    margin-bottom: 14px; }
+    #contact address li:last-child {
+      margin-bottom: 0; }
+
+#contact form {
+  width: calc(100% + 10px);
+  margin: 0 -5px;
+  margin-top: 34px; }
+  @media screen and (max-width: 991px) {
+    #contact form {
+      margin-top: 28.9px; } }
+  @media screen and (max-width: 479px) {
+    #contact form {
+      margin-top: 22.44px; } }
+
+@media screen and (min-width: 992px) {
+  #contact .info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; } }
