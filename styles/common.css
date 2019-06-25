@@ -51,10 +51,13 @@ address {
 main {
   padding-top: 12%; }
   main#home {
-    padding-top: 0; }
-  @media screen and (max-width: 991px) {
+    padding-top: 8%; }
+  @media screen and (max-width: 1199px) {
     main {
       padding-top: 160px; } }
+  @media screen and (max-width: 600px) {
+    main {
+      padding-top: 120px; } }
 
 .container {
   -webkit-box-sizing: border-box;
@@ -1076,6 +1079,21 @@ img {
   .social-media i::before {
     margin: 0; }
 
+.noise {
+  position: relative; }
+  .noise::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: url("images/noise.gif");
+    pointer-events: none;
+    z-index: 10000;
+    opacity: .05; }
+
 .input-group {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1271,6 +1289,9 @@ img {
 
 .t-primary_lg {
   color: #2CEBBC; }
+
+#filters.button-group .btn {
+  outline: none; }
 
 /* ==========================================================================
 		header

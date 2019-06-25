@@ -25,7 +25,7 @@ $(document).ready(function() {
 
 	var	$home = $('#home'),
 		$about = $('#about'),
-		$project = $('#project'),
+		$project = $('#projects'),
 		$contact = $('#contact'),
 		$this = $(this),
 		$body = $('body');
@@ -45,8 +45,10 @@ $(document).ready(function() {
 
 	$project.each(function(){
 		$body.addClass('cover_dp');
-		$('.projects-nav li').on('click', function() {
-			$(this).toggleClass('active').siblings().removeClass('active');
+		$('#project-filter').ckFilter({
+			reset: true,
+			multiple: false,
+			animation: false
 		});
 	});
 
