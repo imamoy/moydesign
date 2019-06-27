@@ -1081,6 +1081,9 @@ img {
   border-radius: 2px;
   background-size: contain;
   background-repeat: no-repeat; }
+  @media screen and (max-width: 991px) {
+    .cursor {
+      display: none; } }
 
 .social-media {
   display: -webkit-box;
