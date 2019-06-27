@@ -20,7 +20,13 @@
     font-weight: 300;
     margin-bottom: 20px; }
   #home .text .btn {
-    margin-top: 20px; }
+    margin-top: 50px; }
+    @media screen and (max-width: 991px) {
+      #home .text .btn {
+        margin-top: 42.5px; } }
+    @media screen and (max-width: 479px) {
+      #home .text .btn {
+        margin-top: 33px; } }
 
 #home .pic {
   -webkit-box-flex: 0;
