@@ -26,6 +26,9 @@ body {
     background-color: #3C3CE6; }
   body.cover_w {
     background-color: #fff; }
+  @media screen and (max-width: 991px) {
+    body {
+      cursor: auto; } }
 
 em {
   font-style: normal; }
@@ -47,6 +50,9 @@ a {
       transition: color 0.25s ease-in-out; }
       a:hover {
         color: #00A88C; } }
+  @media screen and (max-width: 991px) {
+    a {
+      cursor: auto !important; } }
 
 input:focus {
   outline: none; }
@@ -1570,7 +1576,7 @@ header {
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;
-        position: absolute;
+        position: fixed;
         top: 0;
         right: -100%;
         width: 100vw;
