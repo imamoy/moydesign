@@ -35,3 +35,51 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between; } }
+
+@media screen and (max-width: 991px) {
+  #contact .info p {
+    padding-right: 0; }
+  #contact address {
+    padding-left: 0;
+    border: none;
+    margin-top: 18px; }
+    #contact address ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+    #contact address li {
+      display: inline-block;
+      width: 50%;
+      margin-bottom: 0; }
+      #contact address li:last-child {
+        padding-left: 20px;
+        border-left: 1px solid #FFF; } }
+
+@media screen and (max-width: 600px) {
+  #contact address li {
+    width: auto;
+    padding-right: 20px; }
+  #contact form {
+    margin-bottom: 40px; }
+    #contact form .btn {
+      width: 100%; } }
+
+@media screen and (max-width: 479px) {
+  #contact address {
+    margin: 10px 0 0; }
+    #contact address ul {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start; }
+    #contact address li {
+      padding: 10px 0; }
+      #contact address li:last-child {
+        border: none;
+        padding-left: 0; } }

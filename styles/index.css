@@ -1,20 +1,6 @@
-#home .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
-  @media screen and (max-width: 1680px) {
-    #home .container {
-      -ms-flex-pack: distribute;
-          justify-content: space-around; } }
-
 #home .text {
-  width: 40%; }
+  width: 40%;
+  min-width: 436px; }
   #home .text p {
     font-size: 1.2em;
     font-weight: 300;
@@ -30,7 +16,77 @@
 
 #home .pic {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 27.6vw;
-          flex: 0 0 27.6vw;
-  width: 27.6vw;
+      -ms-flex: 0 0 38.6%;
+          flex: 0 0 38.6%;
+  width: 38.6%;
   margin-right: 3%; }
+
+@media screen and (max-width: 1680px) {
+  #home .container {
+    -ms-flex-pack: distribute;
+        justify-content: space-around; } }
+
+@media screen and (min-width: 1200px) {
+  #home .container {
+    padding-top: 6%;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-;
+        -ms-flex-pack: space-;
+            justify-content: space-; }
+  #home .pic {
+    min-width: 400px; } }
+
+@media screen and (max-width: 1366px) {
+  #home .pic {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 48%;
+            flex: 0 0 48%;
+    width: 48%;
+    margin-right: 0; } }
+
+@media screen and (max-width: 1199px) {
+  #home .container {
+    padding-top: 12%; }
+  #home .text {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 80px; }
+    #home .text br {
+      display: none; }
+  #home .pic {
+    width: 106%;
+    margin: -24px 0 60px -3%; } }
+
+@media screen and (max-width: 1199px) {
+  #home .text {
+    position: relative; }
+  #home .btn {
+    position: absolute; } }
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #home .btn {
+    max-width: 30%;
+    right: -24px;
+    bottom: -30px; } }
+
+@media screen and (max-width: 991px) {
+  #home .text {
+    min-width: auto; }
+    #home .text p {
+      font-size: 18px; }
+    #home .text .btn {
+      right: 20px;
+      bottom: -30px; }
+  #home .pic {
+    width: 98%;
+    margin: -10px auto 60px; } }
+
+@media screen and (max-width: 600px) {
+  #home .btn {
+    position: static; } }

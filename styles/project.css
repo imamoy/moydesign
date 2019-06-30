@@ -117,6 +117,9 @@
         text-align: center;
         height: auto;
         padding: 14px 0 0; } }
+  @media screen and (max-width: 479px) {
+    .projects-inner figure .pic {
+      height: 52vw; } }
 
 .projects-nav {
   display: -webkit-box;

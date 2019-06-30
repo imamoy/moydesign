@@ -39,6 +39,9 @@
       #about .top .text ul li {
         display: inline-block;
         margin-right: 30px; }
+        @media screen and (max-width: 991px) {
+          #about .top .text ul li {
+            margin-right: 15px; } }
     #about .top .text .icon {
       font-size: 24px;
       color: #00A88C;
@@ -57,6 +60,44 @@
   @media screen and (max-width: 1199px) {
     #about .top {
       margin-bottom: 60px; } }
+  @media screen and (max-width: 767px) {
+    #about .top {
+      position: relative; }
+      #about .top .text {
+        width: 100%; }
+        #about .top .text p {
+          height: 120px;
+          padding-right: 220px; }
+      #about .top .pic {
+        width: 200px;
+        position: absolute;
+        right: 0;
+        bottom: 0; } }
+  @media screen and (max-width: 600px) {
+    #about .top .pic {
+      width: 180px; } }
+  @media screen and (max-width: 479px) {
+    #about .top {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      #about .top .text {
+        -webkit-box-ordinal-group: 3;
+            -ms-flex-order: 2;
+                order: 2;
+        padding-right: 0; }
+        #about .top .text p {
+          height: auto;
+          padding-right: 0; }
+      #about .top .pic {
+        width: 80%;
+        -webkit-box-ordinal-group: 2;
+            -ms-flex-order: 1;
+                order: 1;
+        position: static;
+        margin-top: -20px;
+        margin-bottom: 20px; } }
 
 #about .about-info {
   display: -webkit-box;

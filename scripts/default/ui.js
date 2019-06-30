@@ -1,4 +1,7 @@
 $(document).ready(function() {
+
+	new WOW().init();
+
 	var	$home = $('#home'),
 		$about = $('#about'),
 		$project = $('#projects'),
