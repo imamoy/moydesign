@@ -7,9 +7,10 @@
 html, body {
   font-size: 18px;
   line-height: normal;
-  font-family: "Karla", "Noto Sans TC", sans-serif;
-    font-family-margin: 0;
-    font-family-padding: 0; }
+  font-family: 'Karla','Noto Sans TC', sans-serif;
+  letter-spacing: 0.4;
+    letter-spacing-margin: 0;
+    letter-spacing-padding: 0; }
   @media screen and (max-width: 1440px) {
     html, body {
       font-size: 16px; } }
@@ -1511,16 +1512,18 @@ header {
         position: relative;
         height: 20px;
         line-height: 1; }
-        header .nav a:hover .nav_item {
-          opacity: 0;
-          visibility: hidden;
-          -webkit-transform: translateY(-100%);
-                  transform: translateY(-100%); }
-        header .nav a:hover .nav_item_en {
-          opacity: 1;
-          visibility: visible;
-          -webkit-transform: translateY(0);
-                  transform: translateY(0); }
+        header .nav a:hover {
+          color: #2CEBBC !important; }
+          header .nav a:hover .nav_item {
+            opacity: 0;
+            visibility: hidden;
+            -webkit-transform: translateY(-100%);
+                    transform: translateY(-100%); }
+          header .nav a:hover .nav_item_en {
+            opacity: 1;
+            visibility: visible;
+            -webkit-transform: translateY(0);
+                    transform: translateY(0); }
       header .nav .nav_item_en, header .nav .nav_item {
         display: inline-block;
         -webkit-transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -1667,6 +1670,12 @@ footer {
           width: 20px; }
         footer .social-media .icon-linkedin {
           font-size: 20px; } }
+  @media screen and (min-width: 992px) {
+    footer .social-media a {
+      -webkit-transition: color 0.25s ease-in-out;
+      transition: color 0.25s ease-in-out; }
+      footer .social-media a:hover {
+        color: #2CEBBC; } }
   @media screen and (max-width: 1199px) {
     footer {
       display: none; } }
@@ -1688,3 +1697,6 @@ footer {
 
 .m0 {
   margin: 0; }
+
+.d-block {
+  display: block; }

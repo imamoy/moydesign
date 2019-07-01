@@ -106,13 +106,13 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   font-size: 1em;
-  margin-bottom: 100px; }
+  margin-bottom: 80px; }
   @media screen and (max-width: 991px) {
     #about .about-info {
-      margin-bottom: 85px; } }
+      margin-bottom: 68px; } }
   @media screen and (max-width: 479px) {
     #about .about-info {
-      margin-bottom: 66px; } }
+      margin-bottom: 52.8px; } }
   #about .about-info .title {
     font-size: 20px;
     font-weight: 500;

@@ -215,7 +215,8 @@
       .project-info_head .sort {
         margin-bottom: 9.24px; } }
   .project-info_head .headline {
-    font-size: 2.7777em; }
+    font-size: 2.7777em;
+    letter-spacing: 1px; }
   @media screen and (max-width: 991px) {
     .project-info_head {
       margin-bottom: 40px; } }
@@ -249,6 +250,8 @@
   width: 100%;
   height: auto;
   margin-bottom: 20px; }
+  .project_editor img.m0 {
+    margin: 0; }
 
 .project_detail {
   margin-top: 60px;
@@ -287,7 +290,7 @@
     line-height: 1;
     font-size: 18px;
     margin-top: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 14px;
     color: #2CEBBC; }
   .project_detail .detail {
     line-height: 1.2;
