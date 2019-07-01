@@ -1,6 +1,7 @@
 var animData = {
     wrapper: document.getElementById('logomotion'),
     animType: 'html',
+    renderer: 'canvas',
     loop: true,
     prerender: true,
     autoplay: true,
