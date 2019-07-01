@@ -9,7 +9,6 @@ $(document).ready(function() {
 		$this = $(this),
 		$body = $('body');
 
-
 	$home.each(function(){
 		$body.addClass('cover_dp');
 	});

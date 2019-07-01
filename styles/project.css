@@ -1,3 +1,17 @@
+.animsition-overlay-slide {
+  background-color: #404040;
+  background-image: url("images/no-Signal.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 9999999999;
+  background-size: 100% auto; }
+  @media screen and (max-width: 1199px) {
+    .animsition-overlay-slide {
+      background-image: url("images/no-Signal_pad.gif"); } }
+  @media screen and (max-width: 479px) {
+    .animsition-overlay-slide {
+      background-image: url("images/no-Signal_phone.gif"); } }
+
 #project-filter {
   max-width: calc(1000px + (80px * 2)); }
 
