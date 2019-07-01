@@ -247,7 +247,8 @@
 
 .project_editor img {
   width: 100%;
-  height: auto; }
+  height: auto;
+  margin-bottom: 20px; }
 
 .project_detail {
   margin-top: 60px;
