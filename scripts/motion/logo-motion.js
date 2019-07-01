@@ -10,7 +10,7 @@ var anim = bodymovin.loadAnimation(animData);
 
 
 //设定倒数秒数 
-var count = 8;
+var count = 10;
 //写一个方法，显示倒数秒数  数到0后跳转页面  
 function countDown(){
     //将count显示在div中
