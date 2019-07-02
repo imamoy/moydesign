@@ -49,11 +49,11 @@ $(document).ready(function() {
 	});
 
 	$(window).scroll(function () {
-        if ($(this).scrollTop() > 100) {
+        if (jQuery(window).width() > 992 && $(this).scrollTop() > 100) {
             $("header").addClass("active");
         } else {
             $("header").removeClass("active");
-        }
+		}
     });
 
   /*document END*/
