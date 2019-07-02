@@ -21,6 +21,10 @@
   width: 38.6%;
   margin-right: 3%; }
 
+@media screen and (min-width: 1441px) {
+  #home .container {
+    max-width: calc(1200px + (80px * 2)); } }
+
 @media screen and (max-width: 1680px) {
   #home .container {
     -ms-flex-pack: distribute;
@@ -36,9 +40,9 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-pack: space-;
-        -ms-flex-pack: space-;
-            justify-content: space-; }
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
   #home .pic {
     min-width: 400px; } }
 

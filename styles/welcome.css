@@ -10,4 +10,14 @@ main {
 #logomotion {
   width: 100vw;
   height: 100vh;
-  background-color: #3C3CE6; }
+  background-image: url("images/logo-motion.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #3b3be3; }
+  @media screen and (max-width: 991px) {
+    #logomotion {
+      background-size: auto 100%; } }
+  @media screen and (max-width: 600px) {
+    #logomotion {
+      background-size: auto 50%; } }
