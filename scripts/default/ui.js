@@ -48,12 +48,13 @@ $(document).ready(function() {
 		$(this).next(".menu").toggleClass('active');
 	});
 
-	$(".goTop").click(function () {
-		$("html,body").animate({
-				scrollTop: 0
-		}, 1300, 'easeInOutCubic');
-		return false;
-	});
+	$(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $("header").addClass("active");
+        } else {
+            $("header").removeClass("active");
+        }
+    });
 
   /*document END*/
 });

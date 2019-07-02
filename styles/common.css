@@ -1405,7 +1405,7 @@ img {
 		header
  @mixin =========================================================================*/
 header {
-  position: absolute;
+  position: fixed;
   top: 80px;
   left: 80px;
   right: 80px;
@@ -1433,7 +1433,9 @@ header {
     letter-spacing: -.5px;
     position: absolute;
     top: 0;
-    left: calc(56px + 20px); }
+    left: calc(56px + 20px);
+    -webkit-transition: opacity 0.25s ease-in-out;
+    transition: opacity 0.25s ease-in-out; }
   header .nav {
     font-size: 16.6px;
     list-style: none;
@@ -1547,6 +1549,81 @@ header {
         top: -10px; }
       header .menu-toggle:hover .hamburger::after {
         bottom: -10px; } }
+  header.active .container_full {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  header.active .header_myjob {
+    opacity: 0; }
+  header.active .nav {
+    width: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    header.active .nav > li {
+      text-align: center;
+      font-size: 1.8em;
+      font-weight: 600;
+      letter-spacing: 3px;
+      margin-left: 0;
+      margin-bottom: 60px; }
+      header.active .nav > li:last-child {
+        margin-bottom: 0; }
+    header.active .nav .nav_item_en {
+      letter-spacing: 0;
+      left: -5px; }
+  header.active .menu-toggle {
+    display: block !important;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2; }
+  header.active .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100vw;
+    height: 100vh;
+    -webkit-transition: .8s right;
+    transition: .8s right;
+    padding: 32px; }
+    header.active .menu.active {
+      right: 0;
+      background-color: #3C3CE6; }
+  header.active .social-media {
+    position: absolute;
+    bottom: 52px; }
+    header.active .social-media a:first-child {
+      margin-left: 0; }
   @media screen and (max-width: 767px) {
     header {
       top: 0;
