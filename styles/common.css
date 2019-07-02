@@ -1331,6 +1331,8 @@ img {
   @media screen and (max-width: 479px) {
     .main-title {
       margin-bottom: 15.84px; } }
+  .main-title > * {
+    display: inline-block; }
   .main-title .en {
     font-size: 1.24996em;
     font-weight: 700; }
