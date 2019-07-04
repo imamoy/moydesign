@@ -189,6 +189,9 @@
     @media screen and (max-width: 991px) {
       #about .job_company span:last-child {
         padding-left: 10px; } }
+  @media screen and (max-width: 479px) {
+    #about .job_company {
+      font-size: 18.6px; } }
 
 #about .job_project {
   display: -webkit-box;
@@ -222,3 +225,11 @@
   @media screen and (min-width: 992px) {
     #about .job_project ul a:hover {
       color: #00A88C; } }
+  @media screen and (max-width: 600px) {
+    #about .job_project .label {
+      margin: 8px;
+      margin-left: 0; }
+    #about .job_project ul {
+      margin: 0 -4px; }
+      #about .job_project ul li {
+        margin: 4px; } }
