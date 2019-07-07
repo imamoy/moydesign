@@ -1591,6 +1591,8 @@ header {
       margin-bottom: 60px; }
       header.active .nav > li:last-child {
         margin-bottom: 0; }
+      header.active .nav > li a {
+        color: #FFF !important; }
     header.active .nav .nav_item_en {
       letter-spacing: 0;
       left: -5px; }
@@ -1662,6 +1664,8 @@ header {
           margin-bottom: 40px; }
           header .nav > li:last-child {
             margin-bottom: 0; }
+          header .nav > li a {
+            color: #FFF !important; }
         header .nav .nav_item_en {
           display: none; }
       header .menu-toggle {
