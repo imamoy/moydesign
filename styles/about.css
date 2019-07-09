@@ -121,6 +121,9 @@
     font-weight: 300; }
     #about .about-info .inner p {
       line-height: 2; }
+  #about .about-info.education ul li {
+    line-height: 26px;
+    margin-bottom: 10px; }
   #about .about-info.skill .inner {
     display: -webkit-box;
     display: -ms-flexbox;
