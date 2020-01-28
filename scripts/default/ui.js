@@ -54,7 +54,18 @@ $(document).ready(function() {
         } else {
             $("header").removeClass("active");
 		}
-    });
+	});
+	
+	var time = 1800;
+	!function TVclose(){
+		if(time<=0) {
+			$('.tv').addClass('close');
+		}else {
+			console.log(time/1000);
+			setTimeout(TVclose, 1000);
+		}
+		time-=1000; 
+	}();
 
   /*document END*/
 });
