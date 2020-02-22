@@ -56,7 +56,7 @@ $(document).ready(function() {
 		}
 	});
 	
-	var time = 1800;
+	var time = 1000;
 	!function TVclose(){
 		if(time<=0) {
 			$('.tv').addClass('close');
