@@ -1082,7 +1082,7 @@ img {
   height: 10px;
   position: fixed;
   pointer-events: none;
-  z-index: 99;
+  z-index: 99999;
   mix-blend-mode: exclusion;
   border-radius: 2px;
   background-size: contain;
