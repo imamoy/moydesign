@@ -1253,6 +1253,9 @@ img {
           transform: translate(-50%, -50%);
   background-image: url("images/M-bg.png"); }
 
+.text-center {
+  text-align: center; }
+
 .btn {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -1377,10 +1380,10 @@ img {
       margin-bottom: 10px; } }
 
 .t-primary {
-  color: #00A88C; }
+  color: #00A88C !important; }
 
 .t-primary_lg {
-  color: #2CEBBC; }
+  color: #2CEBBC !important; }
 
 #filters.button-group .btn {
   outline: none; }
