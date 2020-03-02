@@ -62,7 +62,7 @@ $(document).ready(function() {
 			$('.tv').addClass('close');
 		}else {
 			console.log(time/1000);
-			setTimeout(TVclose, 1000);
+			setTimeout(TVclose, 500);
 		}
 		time-=1000; 
 	}();
