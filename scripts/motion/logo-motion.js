@@ -9,7 +9,7 @@
 // };
 // var anim = bodymovin.loadAnimation(animData);
 
-var time = 7500;//倒數9秒
+var time = 4800;//倒數9秒
 !function MyCounter(){
   if(time<=0){
     window.location.href="home.html";
