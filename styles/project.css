@@ -115,7 +115,7 @@
               flex-direction: column; }
     .projects-inner .item .title {
       font-size: 20px;
-      margin-bottom: 12px 0; } }
+      margin-bottom: 12px; } }
   @media screen and (max-width: 600px) {
     .projects-inner {
       margin: 0; }
