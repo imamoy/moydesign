@@ -107,6 +107,12 @@
               flex-direction: column; }
     .projects-inner .title {
       margin: 10px 0 14px; } }
+  @media screen and (max-width: 991px) {
+    .projects-inner figcaption {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; } }
   @media screen and (max-width: 600px) {
     .projects-inner {
       margin: 0; }
