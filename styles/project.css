@@ -114,7 +114,8 @@
           -ms-flex-direction: column;
               flex-direction: column; }
     .projects-inner .item .title {
-      font-size: 20px; } }
+      font-size: 20px;
+      margin-bottom: 12px 0; } }
   @media screen and (max-width: 600px) {
     .projects-inner {
       margin: 0; }
