@@ -14,7 +14,6 @@ var time = 4800;//倒數9秒
   if(time<=0){
     window.location.href="home.html";
   }else{
-    console.log(time/1000);
     setTimeout(MyCounter, 1000);
   }
   time-=1000; 

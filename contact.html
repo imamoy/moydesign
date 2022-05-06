@@ -43,24 +43,25 @@
           <address>
             <ul class="nostyle">
               <li><a href="mailto:moywudesign@gmail.com" title="E-mail">moywudesign@gmail.com</a></li>
+              <li><a href="https://line.me/ti/p/RCXPGzCHw_" target="_blank" rel="noopener" title="加入我的LINE">加入我的LINE</a></li>
             </ul>
           </address>
         </div>
-        <form class="wow fadeIn d-05s" action="https://mailthis.to/moywudesign@gmail.com" method="POST" encType="multipart/form-data">
+        <form class="wow fadeIn d-05s" id="contact-form">
           <div class="input-group">
             <div class="input-item draw-border">
               <label for="">姓名</label>
-              <input type="text" name="name">
+              <input id="name" type="text" name="name" required>
             </div>
             <div class="input-item draw-border">
               <label class="en" for="">Email</label>
-              <input type="email" name="_replyto">
+              <input id="email" type="email" name="email" required>
             </div>
             <div class="input-item textarea draw-border">
               <label for="">留下訊息</label>
-              <textarea name="message"></textarea>
+              <textarea id="msg" name="message" required></textarea>
               <div class="submit">
-                <input class="btn" type="submit" value="發送訊息">
+                <input class="btn" id="submit-contact" type="button" value="發送訊息">
               </div>
             </div>
           </div>
@@ -73,6 +74,8 @@
     </footer>
     <div class="cursor"></div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"> </script>
+    <script src="scripts/default/contact.js"> </script>
     <script src="scripts/plugins/wow.js"></script>
     <script src="scripts/default/ui.js"></script>
     <script src="scripts/default/motion.js"></script>
